@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.black-screen {
+    background-color: rgb(243, 9, 9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(251, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}

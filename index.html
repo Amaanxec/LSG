@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blank Screen</title>
+    <style>
+        body {
+            background-color: blue; /* Set background color to blue */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            height: 100vh; /* Set height to 100% of viewport height */
+        }
+
+        button {
+            padding: 10px 20px; /* Add padding to button */
+            font-size: 16px; /* Set font size */
+            background-color: white; /* Set background color of button */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add border radius for rounded corners */
+            cursor: pointer; /* Add pointer cursor on hover */
+        }
+    </style>
+</head>
+<body>
+    <button onclick="navigateToPage()">Click Me</button> <!-- Button with text -->
+    <script>
+        function navigateToPage() {
+            // Replace 'otherpage.html' with the path to your other page
+            window.location.href = 'index2.html';
+        }
+    </script>
+</body>
+</html>
